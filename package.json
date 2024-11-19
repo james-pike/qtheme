@@ -35,21 +35,21 @@
     "prepublish": "bun run build.lib && bun run build.types"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
     "@builder.io/qwik": "1.8.0",
+    "@eslint/eslintrc": "^3.2.0",
     "@types/eslint": "9.6.0",
     "@types/node": "^22.2.0",
-    "@typescript-eslint/eslint-plugin": "8.0.1",
-    "@typescript-eslint/parser": "8.0.1",
+    "@typescript-eslint/eslint-plugin": "^8.0.1",
+    "@typescript-eslint/parser": "^8.0.1",
     "eslint": "9.9.0",
-    "eslint-plugin-qwik": "latest",
+    "eslint-plugin-qwik": "^1.10.0",
     "np": "10.0.7",
     "typescript": "5.5.4",
     "undici": "6.19.7",
     "vite": "5.4.0",
-    "vite-tsconfig-paths": "5.0.1",
-    "@biomejs/biome": "^1.8.3"
+    "vite-tsconfig-paths": "5.0.1"
   },
-  "dependencies": {},
   "trustedDependencies": [
     "@biomejs/biome"
   ]
